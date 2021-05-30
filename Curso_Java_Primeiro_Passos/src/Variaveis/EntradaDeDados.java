@@ -20,7 +20,12 @@ public class EntradaDeDados {
 		double b;
 		b = sc.nextDouble();
 		System.out.println("voce digitou: " + b);
-		//exemplo com virgula
+		System.out.println("-------------------");
+		System.out.println("Digite uma Letra: ");
+		char c;
+		c = sc.next().charAt(0);
+		System.out.println("Voce digitou: " + c);
+		
 		
 		
 		sc.close();
